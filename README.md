@@ -92,3 +92,4 @@ In this phase new attributes may be create based on the existing attributes of t
 ### 🎯 Note and Documentation
 Here is the final step of the framework. Here the analyst documents all his work to present to the stakeholder, team or just for future analysis since with this he or she can always come back. 
 
+
