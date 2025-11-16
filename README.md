@@ -27,18 +27,14 @@ KeyQuestions to keep in mind:
 - What are the metrics?
 
 - What are the dimensions?
-
   
-
-  This questions will guide the analyst when first looking to the data and understand what is going happening. 
-
+![Image Alt](https://github.com/Aparecido-Junior/Excel_Notebook/blob/main/1_pic.png?raw=true)
+  
 ### Example Analysis:
 
-Primary key: ORDER_ID
+Customer 2c06175e places the order 0001328c3c220830 and made the purchase at 24/12/2020. The item was shipped out at 13/12/2020. It was a Nintendo Switch. The item ID was e682 with the value of $168. The purchase was in the website throughout an afiliate. The account creation is unkwon and the country is USA.
 
-Metric: USD_PRICE
-
-Dimensions: PURCHASE_TS, SHIP_TS, PRODUCT_NAME, PRODUCT_ID, PURCHASE_PLATFORM, MARKETING_CHANNEL, ACCOUNT_CREATING_METHOD, COUNTRY_CODE
+From this it is concluded that the primary key in this data is ORDER_ID, the metric attribute is USD_PRICE and the remains are the dimensions.
 
 ### Locate Solvable Issues
 Four Categories:
@@ -110,4 +106,5 @@ When is Data Ready?
 Multiple sales channels and platforms
 
 Diverse customer base and marketing approaches
+
 
