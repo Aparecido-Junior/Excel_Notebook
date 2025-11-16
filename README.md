@@ -28,7 +28,7 @@ KeyQuestions to keep in mind:
 
 - What are the dimensions?
   
-![Image Alt](https://github.com/Aparecido-Junior/Excel_Notebook/blob/main/1_pic.png?raw=true)
+![Image Alt](https://github.com/Aparecido-Junior/Excel_Notebook/blob/main/imagens/1_cleaning.png?raw=true)
   
 ### Example Analysis:
 
@@ -36,8 +36,10 @@ Customer 2c06175e places the order 0001328c3c220830 and made the purchase at 24/
 
 From this it is concluded that the primary key in this data is ORDER_ID, the metric attribute is USD_PRICE and the remains are the dimensions.
 
-### Locate Solvable Issues
+### 🎯 Locate Solvable Issues
 Four Categories:
+
+Often times, during the cleaning phase, the analist will come across four types of issues:
 
 1. Inconsistent data format
 
@@ -47,32 +49,27 @@ Four Categories:
 
 4. Duplicates
 
-Process:
+### Process:
 
-Quick scan of data
+Here the analyst will first glance throughout the data to check whether there are issues that is visible only by looking. After that, the analyst must apply filter in each column as the column is analyzed. As the analyst find a issue, one must document it in a log tab, documentatios of the process is very important and in the end we gona talk about it too.
 
-Attribute-by-attribute analysis using filters
+The following picture show the issue log tab that was used.
 
-Document all issues in an issue log
+![Image Alt](https://github.com/Aparecido-Junior/Excel_Notebook/blob/main/imagens/2_cleaning.png?raw=true)
+  
 
-Prioritize by impact and solvability
+### 🎯 Evaluate Unsolvable Problems
+Three are three types of "unsolvable" issues that a data analyst myght come across:
 
-### Evaluate Unsolvable Problems
-Three Types:
+1. Null values with no table of truth;
 
-1. Null values with no table of truth
+2. Outliers and anomalies;
 
-2. Outliers and anomalies
+3. Business logic violations.
 
-3. Business logic violations
-
-Approach:
-
-Keep real outliers as they represent actual events
-
-Validate business logic (e.g., ship date after purchase date)
-
-Accept unsolvable nulls when no reference data exists
+Null values is difficult the solve when one does not have a table of truth if the missing information. Note that this is a data analytics cleaning project, therefore imput the missing values with mean, average, mode, or anyother value may bised the data and skew the analysis. Unless it is really necessary to fulfill the missing value is is not up to the analyst to do so. It case likes this what the analyst should check is the magnetude of the missing values. Is it more the 20% of the data? If yes, maybe report it to the stakeholder and wait for feedback.
+Outliers as well as anomalies maybe a misstype error or an real event that happened and now is skewed the analysis. Here the analyst must analyze the situation, understand what is going on and work on it. Even if the values is skewing the analysis, if it represent a real world event, the analyst can't remove it.
+Finally, the busines logic violation. Here the analyst is better having some background to understand the busines and then check if what is going on on the data makes sense. For example, in this dataset some SHIPPED_OUT values happened before the PURCHASED_DATA. It should never happen, thefore the analyst must document this as well.
 
 ### Augment the Data
 Create new attributes from existing data
@@ -106,5 +103,6 @@ When is Data Ready?
 Multiple sales channels and platforms
 
 Diverse customer base and marketing approaches
+
 
 
