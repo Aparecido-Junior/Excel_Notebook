@@ -56,6 +56,11 @@ Here the analyst will first glance throughout the data to check whether there ar
 The following picture show the issue log tab that was used.
 
 ![Image Alt](https://github.com/Aparecido-Junior/Excel_Notebook/blob/main/imagens/2_cleaning.png?raw=true)
+
+After dealing with the filter phase, it is time to check for duplicates rows. There are more than one way to do it, for this I used pivot table:
+
+![Image Alt](https://github.com/Aparecido-Junior/Excel_Notebook/blob/main/imagens/3_cleaning.png?raw=true)
+
   
 
 ### 🎯 Evaluate Unsolvable Problems
@@ -72,18 +77,12 @@ Outliers as well as anomalies maybe a misstype error or an real event that happe
 Finally, the busines logic violation. Here the analyst is better having some background to understand the busines and then check if what is going on on the data makes sense. For example, in this dataset some SHIPPED_OUT values happened before the PURCHASED_DATA. It should never happen, thefore the analyst must document this as well.
 
 ### Augment the Data
-Create new attributes from existing data
+In this phase new attributes may be create based on the existing attributes of the data. Again, the intention here is not to be fancy on analysis, only to generate columns that may be handy according to the business questions in the particular situation. For this data was created four attribubes to demostrate how it may be done.
 
-Focus on columns useful for specific business questions
 
-Avoid unnecessary complexity
 
 ### Note and Documentation
-Maintain comprehensive documentation throughout the process
-
-Track all changes and decisions
-
-Create reproducible cleaning procedures
+Here is the final step of the framework. Here the analyst documents all his work to present to the stakeholder, team or just for future analysis since with this he or she can always come back. 
 
 🔧 Implementation Strategy
 Best Practices
@@ -103,6 +102,7 @@ When is Data Ready?
 Multiple sales channels and platforms
 
 Diverse customer base and marketing approaches
+
 
 
 
