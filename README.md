@@ -66,10 +66,11 @@ The following picture show the issue log tab that was used.
 
 The next step is to solve the problems that can be solved. For this, I will duplicate the database into a new tab so I do not work on the original data. Additionally, I will not overwrite the attributes, rather I will create new one on the right side of the columns with issue to work on this new ones.
 
+![Image Alt](https://github.com/Aparecido-Junior/Excel_Notebook/blob/0d926ff99d5bb5113602a1afa70df2f528c4cd35/imagens/6_cleaning.png)
 
 After dealing with the filter phase, it is time to check for duplicates rows. There are more than one way to do it, for this I used pivot table:
 
-![Image Alt](https://github.com/Aparecido-Junior/Excel_Notebook/blob/main/imagens/3_cleaning.png?raw=true)
+![Image Alt](https://github.com/Aparecido-Junior/Excel_Notebook/blob/0d926ff99d5bb5113602a1afa70df2f528c4cd35/imagens/3_cleaning.png)
 
   
 
@@ -89,7 +90,9 @@ Finally, the busines logic violation. Here the analyst is better having some bac
 ### 🎯 Augment the Data
 In this phase new attributes may be create based on the existing attributes of the data. Again, the intention here is not to be fancy on analysis, only to generate columns that may be handy according to the business questions in the particular situation. For this data was created four attribubes to demostrate how it may be done.
 
+![Image Alt](https://github.com/Aparecido-Junior/Excel_Notebook/blob/0d926ff99d5bb5113602a1afa70df2f528c4cd35/imagens/4_cleaning.png)
+
 ### 🎯 Note and Documentation
 Here is the final step of the framework. Here the analyst documents all his work to present to the stakeholder, team or just for future analysis since with this he or she can always come back. 
 
-
+![Image Alt](https://github.com/Aparecido-Junior/Excel_Notebook/blob/0d926ff99d5bb5113602a1afa70df2f528c4cd35/imagens/5_cleaning.png)
