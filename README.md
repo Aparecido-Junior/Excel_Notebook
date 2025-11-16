@@ -2,7 +2,14 @@
 This repository is a collection of the courses that I have been doing since 2024 as well as some projects that I will be updating. My goals is to share my steps towards my goal which is beccome a data analyst or data Scients or even something in between. 
 
 ## 1. Data Cleaning Framework & Documentation
-A practical guide and framework for data cleaning processes in business analytics using excel.
+A practical guide and framework for data cleaning processes in business analytics using excel. THe framework consist of 5 steps project:
+
+- Conceptualize the data (identify granularity, metrics and dimensions);
+- Locate solvable issues;
+- Evaluate unsolvable problems;
+- Augment the data;
+- Note and documentation.
+
 
 ### 📋 Overview
 This first Data Cleaning Framework project documents a comprehensive 5-step framework for data cleaning with business applications. The methodology focuses on preparing data to answer specific business questions rather than pursuing "perfect" data.
@@ -83,26 +90,3 @@ In this phase new attributes may be create based on the existing attributes of t
 
 ### Note and Documentation
 Here is the final step of the framework. Here the analyst documents all his work to present to the stakeholder, team or just for future analysis since with this he or she can always come back. 
-
-🔧 Implementation Strategy
-Best Practices
-Always duplicate original data before cleaning
-
-Create new columns instead of overwriting original data
-
-Use pivot tables or other methods to identify duplicates
-
-Maintain an issue log for tracking problems
-
-When is Data Ready?
-"The data is ready when the modifications applied are enough to answer the business questions proposed."
-
-
-
-Multiple sales channels and platforms
-
-Diverse customer base and marketing approaches
-
-
-
-
