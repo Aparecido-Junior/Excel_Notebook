@@ -21,6 +21,8 @@ This data represetn a tech company found in 1999 focussed on selling tech produc
 
 The data base has nine columns and over 20k lines, which is verry representative of a real world dataset. From this nine columns one represent a metric as the other represent dimensions. 
 
+The dataset is available on [Christine Jiang](https://www.youtube.com/watch?v=y9wFFD2bXQM&t=249s) youtube channel.
+
 
 ### 🎯 Framework Steps
 
@@ -96,3 +98,4 @@ In this phase new attributes may be create based on the existing attributes of t
 Here is the final step of the framework. Here the analyst documents all his work to present to the stakeholder, team or just for future analysis since with this he or she can always come back. 
 
 ![Image Alt](https://github.com/Aparecido-Junior/Excel_Notebook/blob/0d926ff99d5bb5113602a1afa70df2f528c4cd35/imagens/5_cleaning.png)
+
