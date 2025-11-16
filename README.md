@@ -1,35 +1,30 @@
-# Excel Nootebook
-This repository is a collection of the courses that I have been doing since 2024 as well as some projects that I will be updating. My goals is to share my steps towards my goal which is beccome a data analyst or data Scients or even something in between. 
+# 📘 Excel Nootebook
+This repository is a collection of the courses I have been doing since 2024, as well as some projects that I will continue to update. My goal is to share my steps toward becoming a Data Analyst or Data Scientist—or even something in between.
 
-## 1. Data Cleaning Framework & Documentation
-A practical guide and framework for data cleaning processes in business analytics using excel. THe framework consist of 5 steps project:
+## 🔧 1. Data Cleaning Framework & Documentation
+This project is a practical guide and framework for data cleaning in business analytics using Excel. The framework consists of a 5-step process:
 
-- Conceptualize the data (identify granularity, metrics and dimensions);
-- Locate solvable issues;
-- Evaluate unsolvable problems;
-- Augment the data;
+- Conceptualize the data (identify granularity, metrics, and dimensions)
+- Locate solvable issues
+- Evaluate unsolvable problems
+- Augment the data
 - Note and documentation.
 
 
 ### 📋 Overview
-This first Data Cleaning Framework project documents a comprehensive 5-step framework for data cleaning with business applications. The methodology focuses on preparing data to answer specific business questions rather than pursuing "perfect" data.
+This first Data Cleaning Framework project documents a comprehensive 5-step approach focused on preparing data to answer specific business questions rather than pursuing “perfect” data. The workflow simulates what a data analyst would do in a real business setting.
 
 ### 📊 Sample Context
-This data is ficticous, however it does help an inspiring data analyst practice and apply business analytics concepts to practice as well as showcase for future jobs application that one is capable of work as data analyst.
+Although the dataset is fictitious, it helps an aspiring data analyst practice real analytics tasks and build a showcase for future job applications. The data represents a tech company founded in 1999 that sells products online. Customers may purchase through the company’s website or through partner stores, and these channels are tracked in the dataset.
 
-This data represetn a tech company found in 1999 focussed on selling tech products online. Customer may buy its products in its own store or by partiners store, which is followed up in this data base.
-
-The data base has nine columns and over 20k lines, which is verry representative of a real world dataset. From this nine columns one represent a metric as the other represent dimensions. 
-
-The dataset is available on [Christine Jiang](https://www.youtube.com/watch?v=y9wFFD2bXQM&t=249s) youtube channel.
-
+The dataset contains nine columns and over 20,000 rows—large enough to resemble a real dataset. From these nine columns, one represents a metric and the rest represent dimensions. The dataset is available on [Christine](https://www.youtube.com/watch?v=y9wFFD2bXQM&t=249s) Jiang’s YouTube channel.
 
 ### 🎯 Framework Steps
 
-### Conceptualize the Data
-Before even starting the analysis, it is necessary to know what are the answers that the analyst are looking for or what are the questions that the stakeholder asked and now the analyst are trying to find out. Without knowing this, start the cleaning project is like drive without any destination.
+### 🧠 1. Conceptualize the Data
+Before starting the analysis, it is necessary to know what questions the stakeholder is asking or what the analyst is trying to uncover. Without understanding the purpose, beginning the cleaning process is like driving without a destination.
 
-KeyQuestions to keep in mind:
+Key questions to keep in mind:
 
 - What is the granularity of the data?
 
@@ -37,18 +32,19 @@ KeyQuestions to keep in mind:
 
 - What are the dimensions?
   
-![Image Alt](https://github.com/Aparecido-Junior/Excel_Notebook/blob/main/imagens/1_cleaning.png?raw=true)
+![Image Alt](https://github.com/Aparecido-Junior/Excel_Notebook/blob/5215fbc2c41e43688a05a320ea71217e2c1fe08a/imagens/1_cleaning.png)
   
-### Example Analysis:
+### 🔍 Example Analysis:
+> Customer 2c06175e placed order 0001328c3c220830 and made the purchase on 24/12/2020. The item, a Nintendo Switch, was shipped out on 13/12/2020. The item ID is e682, and the value was $168. The purchase took place on the website through an affiliate. The account creation date is unknown, and the country is USA.
 
-Customer 2c06175e places the order 0001328c3c220830 and made the purchase at 24/12/2020. The item was shipped out at 13/12/2020. It was a Nintendo Switch. The item ID was e682 with the value of $168. The purchase was in the website throughout an afiliate. The account creation is unkwon and the country is USA.
 
-From this it is concluded that the primary key in this data is ORDER_ID, the metric attribute is USD_PRICE and the remains are the dimensions.
 
-### 🎯 Locate Solvable Issues
+From this information, it is concluded that the primary key in this data is ORDER_ID, the metric attribute is USD_PRICE, and the remaining attributes are dimensions.
+
+### 🔎 2. Locate Solvable Issues
 Four Categories:
 
-Often times, during the cleaning phase, the analist will come across four types of issues:
+During the cleaning phase, the analyst will often come across four types of solvable issues:
 
 1. Inconsistent data format
 
@@ -58,44 +54,46 @@ Often times, during the cleaning phase, the analist will come across four types 
 
 4. Duplicates
 
-### Process:
-
-Here the analyst will first glance throughout the data to check whether there are issues that is visible only by looking. After that, the analyst must apply filter in each column as the column is analyzed. As the analyst find a issue, one must document it in a log tab, documentatios of the process is very important and in the end we gona talk about it too.
-
-The following picture show the issue log tab that was used.
+The analyst begins by scanning the data visually to find obvious issues. After that, filters are applied column by column. As issues are identified, they are documented in a log sheet. Documentation is extremely important, and it will be revisited later in the process.
 
 ![Image Alt](https://github.com/Aparecido-Junior/Excel_Notebook/blob/main/imagens/2_cleaning.png?raw=true)
 
-The next step is to solve the problems that can be solved. For this, I will duplicate the database into a new tab so I do not work on the original data. Additionally, I will not overwrite the attributes, rather I will create new one on the right side of the columns with issue to work on this new ones.
-
+TTo preserve the raw data, the dataset is duplicated into a new tab. The analyst then works on new columns rather than overwriting the original attributes.
 ![Image Alt](https://github.com/Aparecido-Junior/Excel_Notebook/blob/0d926ff99d5bb5113602a1afa70df2f528c4cd35/imagens/6_cleaning.png)
 
-After dealing with the filter phase, it is time to check for duplicates rows. There are more than one way to do it, for this I used pivot table:
+After the filter phase, the next step is to check for duplicate rows. There are multiple ways to do this; in this project, a Pivot Table was used.
 
 ![Image Alt](https://github.com/Aparecido-Junior/Excel_Notebook/blob/0d926ff99d5bb5113602a1afa70df2f528c4cd35/imagens/3_cleaning.png)
 
   
 
-### 🎯 Evaluate Unsolvable Problems
-Three are three types of "unsolvable" issues that a data analyst myght come across:
+### ⚠️ 3. Evaluate Unsolvable Problems
+There are three types of “unsolvable” issues that a data analyst may come across:
 
-1. Null values with no table of truth;
-
-2. Outliers and anomalies;
-
+1. Null values with no table of truth
+2. Outliers and anomalies
 3. Business logic violations.
 
-Null values is difficult the solve when one does not have a table of truth if the missing information. Note that this is a data analytics cleaning project, therefore imput the missing values with mean, average, mode, or anyother value may bised the data and skew the analysis. Unless it is really necessary to fulfill the missing value is is not up to the analyst to do so. It case likes this what the analyst should check is the magnetude of the missing values. Is it more the 20% of the data? If yes, maybe report it to the stakeholder and wait for feedback.
-Outliers as well as anomalies maybe a misstype error or an real event that happened and now is skewed the analysis. Here the analyst must analyze the situation, understand what is going on and work on it. Even if the values is skewing the analysis, if it represent a real world event, the analyst can't remove it.
-Finally, the busines logic violation. Here the analyst is better having some background to understand the busines and then check if what is going on on the data makes sense. For example, in this dataset some SHIPPED_OUT values happened before the PURCHASED_DATA. It should never happen, thefore the analyst must document this as well.
+Null values are difficult to solve when there is no table of truth. Since this is a data analytics project—not data science—filling missing values with averages, modes, or other estimates risks biasing the data. If the magnitude of missing values is large (e.g., more than 20%), the analyst may need to consult the stakeholder before making decisions.
 
-### 🎯 Augment the Data
-In this phase new attributes may be create based on the existing attributes of the data. Again, the intention here is not to be fancy on analysis, only to generate columns that may be handy according to the business questions in the particular situation. For this data was created four attribubes to demostrate how it may be done.
+Outliers and anomalies may represent mistakes or real events. The analyst must investigate the context before removing or modifying any data. If an outlier reflects a real business event, it cannot be removed, even if it skews the analysis.
+
+Business logic violations occur when the data contradicts real-world logic. For example, in this dataset, some SHIPPED_OUT dates occur before PURCHASE_DATE, which should never happen. These issues must be documented clearly.
+
+### ➕ 4. Augment the Data
+In this phase, new attributes may be created from the existing ones. The purpose is not to perform advanced transformations, but simply to generate helpful fields based on the analysis needs. In this dataset, four new attributes were created to demonstrate the process.
 
 ![Image Alt](https://github.com/Aparecido-Junior/Excel_Notebook/blob/0d926ff99d5bb5113602a1afa70df2f528c4cd35/imagens/4_cleaning.png)
 
-### 🎯 Note and Documentation
-Here is the final step of the framework. Here the analyst documents all his work to present to the stakeholder, team or just for future analysis since with this he or she can always come back. 
+### 📝 5. Note and Documentation
+This is the final step of the framework. The analyst documents all the work performed so it can be presented to stakeholders, used by the team, or referenced in future analyses. 
 
 ![Image Alt](https://github.com/Aparecido-Junior/Excel_Notebook/blob/0d926ff99d5bb5113602a1afa70df2f528c4cd35/imagens/5_cleaning.png)
+
+### 🏁 Conclusion
+n this 5-step cleaning framework project, the CLEAN concept was introduced, explained, and demonstrated. Following this framework ensures that the analyst can deliver clear, structured work and that the next steps—Data Exploration, Transformation, and Sharing—will be achievable.
+
+
+
+
 
