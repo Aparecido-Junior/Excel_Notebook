@@ -64,6 +64,9 @@ The following picture show the issue log tab that was used.
 
 ![Image Alt](https://github.com/Aparecido-Junior/Excel_Notebook/blob/main/imagens/2_cleaning.png?raw=true)
 
+The next step is to solve the problems that can be solved. For this, I will duplicate the database into a new tab so I do not work on the original data. Additionally, I will not overwrite the attributes, rather I will create new one on the right side of the columns with issue to work on this new ones.
+
+
 After dealing with the filter phase, it is time to check for duplicates rows. There are more than one way to do it, for this I used pivot table:
 
 ![Image Alt](https://github.com/Aparecido-Junior/Excel_Notebook/blob/main/imagens/3_cleaning.png?raw=true)
@@ -83,10 +86,9 @@ Null values is difficult the solve when one does not have a table of truth if th
 Outliers as well as anomalies maybe a misstype error or an real event that happened and now is skewed the analysis. Here the analyst must analyze the situation, understand what is going on and work on it. Even if the values is skewing the analysis, if it represent a real world event, the analyst can't remove it.
 Finally, the busines logic violation. Here the analyst is better having some background to understand the busines and then check if what is going on on the data makes sense. For example, in this dataset some SHIPPED_OUT values happened before the PURCHASED_DATA. It should never happen, thefore the analyst must document this as well.
 
-### Augment the Data
+### 🎯 Augment the Data
 In this phase new attributes may be create based on the existing attributes of the data. Again, the intention here is not to be fancy on analysis, only to generate columns that may be handy according to the business questions in the particular situation. For this data was created four attribubes to demostrate how it may be done.
 
-
-
-### Note and Documentation
+### 🎯 Note and Documentation
 Here is the final step of the framework. Here the analyst documents all his work to present to the stakeholder, team or just for future analysis since with this he or she can always come back. 
+
