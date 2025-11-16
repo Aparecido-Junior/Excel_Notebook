@@ -37,7 +37,7 @@ KeyQuestions to keep in mind:
 
 - What are the dimensions?
   
-![Image Alt](https://github.com/Aparecido-Junior/Excel_Notebook/blob/main/imagens/1_cleaning.png?raw=true)
+![Image Alt](https://github.com/Aparecido-Junior/Excel_Notebook/blob/5215fbc2c41e43688a05a320ea71217e2c1fe08a/imagens/1_cleaning.png)
   
 ### Example Analysis:
 
@@ -98,4 +98,5 @@ In this phase new attributes may be create based on the existing attributes of t
 Here is the final step of the framework. Here the analyst documents all his work to present to the stakeholder, team or just for future analysis since with this he or she can always come back. 
 
 ![Image Alt](https://github.com/Aparecido-Junior/Excel_Notebook/blob/0d926ff99d5bb5113602a1afa70df2f528c4cd35/imagens/5_cleaning.png)
+
 
