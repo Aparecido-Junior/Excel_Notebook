@@ -99,4 +99,9 @@ Here is the final step of the framework. Here the analyst documents all his work
 
 ![Image Alt](https://github.com/Aparecido-Junior/Excel_Notebook/blob/0d926ff99d5bb5113602a1afa70df2f528c4cd35/imagens/5_cleaning.png)
 
+### Conclusion
+In this five steps cleaning framework projects the CLEAN concept was intruced, explained and demostraded. Following this framework not only garantee that the analyst will be able to deliver his job, but also that the following steps: Data Exploration, Transformation and Sharing will be achiavable. 
+
+
+
 
